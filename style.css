@@ -108,8 +108,10 @@ html{
   background-color: black;
   margin-bottom: 3000px;
 }
-h1{
+.titletext{
   color:white;
-  position: absolute;
+  position: relative;
   z-index: 6;
+  top: 340px;
+  font-size: 5rem;;
 }
