@@ -108,13 +108,17 @@ animation:move-clouds-back 200s linear infinite;
   position: relative;
   z-index: 6;
   top: 340px;
-  font-size: 5rem;;
+  font-size: 7rem;
+  font-family: "continuo", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 
 
 .bs {
   background-color: black;
+
 
 }
 
@@ -126,7 +130,7 @@ animation:move-clouds-back 200s linear infinite;
 .timeline ul {
   position: static;
   background: #000000;;
-  margin-top: 710px;
+  margin-top: 750px;
   margin-bottom: 50px;
   padding-top: 30px
 }
@@ -189,12 +193,17 @@ animation:move-clouds-back 200s linear infinite;
   border-color: transparent transparent transparent #860712;
 }
 
-time {
+.time {
   display: block;
   font-size: 2rem;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
-
+.babytext{
+  display: block;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
 
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
