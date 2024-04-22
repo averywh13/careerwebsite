@@ -1,4 +1,4 @@
-/*codepen: stars*/
+/*CODEPEN: STARSs*/
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ header {
   font: 14px/1.3 Arial,sans-serif;
   height:50px;
   position:relative;
-  z-index:5;
+  z-index:0;
 }
 h2{
   margin-top: 30px;
@@ -79,7 +79,7 @@ z-index:0;
 
 .twinkling{
 background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-z-index:1;
+z-index:0;
 
 -moz-animation:move-twink-back 200s linear infinite;
 -ms-animation:move-twink-back 200s linear infinite;
@@ -90,7 +90,7 @@ animation:move-twink-back 200s linear infinite;
 
 .clouds{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
-  z-index:3;
+  z-index:0;
 
 -moz-animation:move-clouds-back 200s linear infinite;
 -ms-animation:move-clouds-back 200s linear infinite;
@@ -98,34 +98,28 @@ animation:move-twink-back 200s linear infinite;
 -webkit-animation:move-clouds-back 200s linear infinite;
 animation:move-clouds-back 200s linear infinite;
 }
-/*codepen: stars*/
+/*CODEPEN: STARS*/
 
-
-
-
+/*MY CSS*/
 .titletext{
   color:rgb(255, 255, 255);
   position: relative;
-  z-index: 6;
   top: 340px;
   font-size: 7rem;
   font-family: "continuo", sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 
-.bs {
+.by {
   background-color: black;
-
-
 }
+/*MY CSS*/
 
 
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* CODEPEN: TIMELINE*/
 
 .timeline ul {
   position: static;
@@ -153,7 +147,7 @@ font-style: normal;
   height: 30px;
   border-radius: 50%;
   background: inherit;
-  z-index: 1;
+  z-index: 0;
 }
 
 .timeline ul li div {
@@ -205,8 +199,7 @@ font-style: normal;
   color: rgb(255, 255, 255);
 }
 
-/* EFFECTS
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* EFFECTS*/
 
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
@@ -237,8 +230,7 @@ font-style: normal;
 }
 
 
-/* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* GENERAL MEDIA QUERIES*/
 
 @media screen and (max-width: 900px) {
   .timeline ul li div {
@@ -268,8 +260,7 @@ font-style: normal;
 }
 
 
-/* EXTRA/CLIP PATH STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* EXTRA/CLIP PATH STYLES*/
 .timeline-clippy ul li::after {
   width: 40px;
   height: 40px;
@@ -326,3 +317,4 @@ font-style: normal;
     transform: translateX(-50%) scale(1);
   }
 }
+/* CODEPEN: TIMELINE*/
