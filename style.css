@@ -105,25 +105,29 @@ animation:move-clouds-back 200s linear infinite;
   color:rgb(255, 255, 255);
   position: relative;
   top: 340px;
-  font-size: 7rem;
+  font-size: 7vw;
   font-family: "continuo", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
 
 
 .by {
-  background-color: black;
+  background-image: url('blackpatternbg2.png')
 }
 /*MY CSS*/
 
 
 /* CODEPEN: TIMELINE*/
+ul{
+  margin-top: -10px;
+}
 
 .timeline ul {
   position: static;
-  background: #000000;;
+
   margin-top: 750px;
   margin-bottom: 50px;
   padding-top: 30px
