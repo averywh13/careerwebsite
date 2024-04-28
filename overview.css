@@ -118,7 +118,7 @@
 /*CODEPEN: FADE-IN TEXT*/
 
 
-/* MY CSS */
+
 .navbar{
     z-index: 2;
     font-size: 25px;
@@ -126,6 +126,7 @@
     font-weight: 300;
     font-style: normal;
 }
+
 .nav-link {
     position: relative;
     text-decoration: none;
@@ -165,3 +166,28 @@
   .navbar-toggler-icon {
     border-radius: 5px;
   }
+
+/* MY CSS */
+.row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1{
+  margin-top: 500px;
+}
+.hr{
+  border-top: 5px solid white;
+  opacity: 1;
+  width: 50%;
+}
