@@ -67,7 +67,7 @@
 
 .by {
   background-color: black;
-  margin-bottom: 1000px;
+  margin-bottom: 100px;
 }
 /*CODEPEN: STARS*/
 
@@ -82,7 +82,7 @@
     color:rgb(255, 255, 255);
     position: relative;
     margin-top: 240px;
-    font-size: 8rem;
+    font-size: 8vw;
     letter-spacing: 10px;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 12s;
@@ -118,7 +118,6 @@
 /*CODEPEN: FADE-IN TEXT*/
 
 
-/* MY CSS */
 .navbar{
     z-index: 2;
     font-size: 25px;
@@ -165,3 +164,27 @@
   .navbar-toggler-icon {
     border-radius: 5px;
   }
+  /* MY CSS */
+.row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container1{
+  margin-top: 500px;
+}
+.hr{
+  border-top: 5px solid rgb(255, 255, 255);
+  opacity: 1;
+  width: 50%;
+}
