@@ -117,6 +117,19 @@ animation:move-clouds-back 200s linear infinite;
 .by {
   background-image: url('blackpatternbg2.png')
 }
+
+.space{
+  margin-bottom: 0px !important;
+}
+.space2{
+  margin-bottom:0px !important;
+}
+.linkedtext{
+  font-family: "new-science-mono", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
 /*MY CSS*/
 
 
@@ -196,11 +209,16 @@ ul{
   font-size: 2rem;
   color: rgb(255, 255, 255);
   font-weight: bold;
+  font-family: "rocinante-titling-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 476;
 }
 .babytext{
   display: block;
   font-size: 1rem;
   color: rgb(255, 255, 255);
+  font-family: "new-science-mono", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 /* EFFECTS*/
@@ -322,3 +340,50 @@ ul{
   }
 }
 /* CODEPEN: TIMELINE*/
+
+/* FOOTER */
+.site-footer
+{
+  background-color:#1d0303;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#ffffff;
+  font-family: "new-science-mono", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#ffffff;
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+/* FOOTER */

@@ -67,7 +67,6 @@
 
 .by {
   background-color: black;
-  margin-bottom: 100px;
 }
 /*CODEPEN: STARS*/
 
@@ -190,4 +189,22 @@
   border-top: 5px solid rgb(255, 255, 255);
   opacity: 1;
   width: 50%;
+}
+.site-footer{
+  background-color:#1d0303;
+  margin-top: 300px;
+  font-family: "new-science-mono", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.card-title{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "rocinante-titling-variable", sans-serif;
+  font-variation-settings: "slnt" 0, "wght" 476;
+}
+.card-text{
+  font-family: "new-science-mono", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
