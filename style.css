@@ -111,13 +111,9 @@ animation:move-clouds-back 200s linear infinite;
   font-style: normal;
   text-align: center;
 }
-
-
-
 .by {
   background-image: url('blackpatternbg2.png')
 }
-
 .space{
   margin-bottom: 0px !important;
 }
